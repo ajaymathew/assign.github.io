@@ -1,0 +1,41 @@
+body{
+
+	background: black;
+    text-align: center;
+	     
+         
+}
+
+
+
+
+/* The element to apply the animation to */
+
+h1
+{
+        position: relative;
+		top: 35%;
+	    color: #217C7E;
+		font-family: 'Helvetica Neue', sans-serif; 
+		font-size:75px; 
+		text-align: center; 
+
+       /* animation code initialization*/
+        animation-name: example;
+        animation-duration: 20s;
+
+
+ }   
+
+
+
+/* animation code execution */
+@keyframes example {
+   
+    
+    10% {color: green; font-family: 'Book Antiqua', serif;}
+    25%   {color: red; font-family: 'Lucida Console', monospace;}
+    50%  {color: blue; font-family: 'Arial',sans-serif;}
+    100%  {color: yellow; font-family: 'Palatino' ,serif;}
+   
+}
